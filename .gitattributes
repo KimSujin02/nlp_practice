@@ -1,0 +1,13 @@
+etc/glove.6B.100d.txt filter=lfs diff=lfs merge=lfs -text
+etc/ko_stopwords.txt filter=lfs diff=lfs merge=lfs -text
+preprocessed_data/preprocess_data.pkl filter=lfs diff=lfs merge=lfs -text
+qna_data/korquad2.1_dev_03.json filter=lfs diff=lfs merge=lfs -text
+qna_data/korquad2.1_dev_04.json filter=lfs diff=lfs merge=lfs -text
+qna_data/korquad2.1_dev_00.json filter=lfs diff=lfs merge=lfs -text
+qna_data/korquad2.1_dev_01.json filter=lfs diff=lfs merge=lfs -text
+qna_data/korquad2.1_dev_02.json filter=lfs diff=lfs merge=lfs -text
+wiki_data/namuwikitext_20200302.train filter=lfs diff=lfs merge=lfs -text
+wiki_data/namuwikitext_20200302.dev filter=lfs diff=lfs merge=lfs -text
+wiki_data/namuwikitext_20200302.test filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
