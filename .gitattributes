@@ -9,5 +9,7 @@ qna_data/korquad2.1_dev_02.json filter=lfs diff=lfs merge=lfs -text
 wiki_data/namuwikitext_20200302.train filter=lfs diff=lfs merge=lfs -text
 wiki_data/namuwikitext_20200302.dev filter=lfs diff=lfs merge=lfs -text
 wiki_data/namuwikitext_20200302.test filter=lfs diff=lfs merge=lfs -text
+nsmc_data/ratings_test.txt filter=lfs diff=lfs merge=lfs -text
+nsmc_data/ratings_train.txt filter=lfs diff=lfs merge=lfs -text
 *.pth filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
