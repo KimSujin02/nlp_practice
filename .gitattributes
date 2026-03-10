@@ -11,5 +11,17 @@ wiki_data/namuwikitext_20200302.dev filter=lfs diff=lfs merge=lfs -text
 wiki_data/namuwikitext_20200302.test filter=lfs diff=lfs merge=lfs -text
 nsmc_data/ratings_test.txt filter=lfs diff=lfs merge=lfs -text
 nsmc_data/ratings_train.txt filter=lfs diff=lfs merge=lfs -text
+01_preprocessing.ipynb filter=lfs diff=lfs merge=lfs -text
+05_seq_modeling_practice.ipynb filter=lfs diff=lfs merge=lfs -text
+etc filter=lfs diff=lfs merge=lfs -text
+preprocessed_data filter=lfs diff=lfs merge=lfs -text
+wiki_data filter=lfs diff=lfs merge=lfs -text
+02_text_analysis.ipynb filter=lfs diff=lfs merge=lfs -text
+03_word_embedding.ipynb filter=lfs diff=lfs merge=lfs -text
+04_word_game.ipynb filter=lfs diff=lfs merge=lfs -text
+06_seq2seq_chatbot.ipynb filter=lfs diff=lfs merge=lfs -text
+nsmc_data filter=lfs diff=lfs merge=lfs -text
+qna_data filter=lfs diff=lfs merge=lfs -text
 *.pth filter=lfs diff=lfs merge=lfs -text
+nsmc/* filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
